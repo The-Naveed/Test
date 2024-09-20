@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cabin", sans-serif;
+    color: #052b4e;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d0c4af;
+}
+
+p,
+.font {
+    color: #d0c4af;
+}
+
+/* .parentinput1 { */
+    width: 50%;
+    margin-bottom: 10px;
+    background-color: #052b4e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1),
+        0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+    border-radius: 20px;
+}
+
+.parentinput2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 60px;
+    /* width: 60%; */
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #052b4e;
+    color: #d0c4af;
+    font-weight: bold;
+}
+  
+input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.card {
+    margin-bottom: 20px;
+    width: 200px;
+    background: #052b4e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1),
+        0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+}
+
+.design {
+    border: 1px solid #d0c4af;
+    border-radius: 0 0 50px 50px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.head1 {
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.task{
+    font-size: 50px;
+}
+
+.form {
+     margin: 5%;
+    border-radius: 20px;
+    padding: 20px;
+    background: #052b4e;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1),
+        0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+}
+
+.form h3 {
+    color: #d0c4af;
+}
+
+.form input {
+    margin-bottom: 10px;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 1px #d0c4af;
+    border: 2px solid #d0c4af;
+    border-radius: 5px;
+    background-color: #052b4e;
+    color: #d0c4af;
+    font-weight: bold;
+}
+
+.form button {
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 1px #d0c4af;
+    border: 2px solid #d0c4af;
+    border-radius: 5px;
+    background-color: #052b4e;
+    color: #d0c4af;
+    font-weight: bold;
+}
+
+.form button:hover {
+    font-weight: bold;
+    box-shadow: 1px #052b4e;
+    border: 2px solid #052b4e;
+    border-radius: 5px;
+    background-color: #d0c4af;
+    color: #052b4e;
+    font-weight: bold;
+}
+
+.form2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 20px;
+    background: #052b4e;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1),
+        0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+}
+
+.form2 input {
+    margin-bottom: 10px;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 1px #d0c4af;
+    border: 2px solid #d0c4af;
+    border-radius: 5px;
+    background-color: #052b4e;
+    color: #d0c4af;
+    font-weight: bold;
+}
+
+.form2 button {
+    margin-bottom: 10px;
+
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 1px #d0c4af;
+    border: 2px solid #d0c4af;
+    border-radius: 5px;
+    background-color: #052b4e;
+    color: #d0c4af;
+    font-weight: bold;
+}
+
+.form2 button:hover {
+    font-weight: bold;
+    box-shadow: 1px #052b4e;
+    border: 2px solid #052b4e;
+    border-radius: 5px;
+    background-color: #d0c4af;
+    color: #052b4e;
+    font-weight: bold;
+}
+
+.form2 h3 {
+    color: #d0c4af;
+}
+
+;
+
+.form2 a {
+    color: #d0c4af;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+nav h3 {
+    color: #052b4e;
+}

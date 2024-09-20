@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon"
+    href="https://img.freepik.com/free-psd/check-symbol-isolated_23-2150500363.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721606400&semt=ais_user">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Student Portal</title>
+</head>
+
+<body style="background-color:#d0c4af">
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h3><svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z"
+              fill="#052b4e" />
+          </svg>Student Portal</h3>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/The-Naveed/Task-Manager">About App</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://pk.linkedin.com/in/naveed-ahmed-672267211">About Developer</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="design m-0 p-0">
+    <!-- <header class="d-flex justify-content-between align-items-center m-4">
+            <h4>
+                <strong>Task Manager</strong>
+            </h4>
+            <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z"
+                    fill="#052b4e" />
+            </svg>
+        </header> -->
+    <section class="container">
+      <div class="parentinput1">
+        <div class="parentinput2">
+          <input type="text" autocomplete="off" name="" id="data1" class="fs-4" placeholder="First Name"><br><br>
+          <!-- <button class="btn btn-success" onclick="taskAdd()">Add Student</button> -->
+        </div>
+      </div>
+      <div class="parentinput1">
+        <div class="parentinput2">
+          <input type="text" autocomplete="off" name="" id="data2" class="fs-4" placeholder="Last Name"><br><br>
+          <!-- <button class="btn btn-success" onclick="taskAdd()">Add Student</button> -->
+        </div>
+      </div>
+      <div class="parentinput1">
+        <div class="parentinput2">
+          <input type="email" autocomplete="off" name="" id="data3" class="fs-4" placeholder="Email"><br><br>
+          <!-- <button class="btn btn-success" onclick="taskAdd()">Add Student</button> -->
+        </div>
+      </div>
+      <div class="parentinput1">
+        <div class="parentinput2">
+          <input type="password" autocomplete="off" name="" id="data4" class="fs-4" placeholder="Pasword"><br><br>
+          <!-- <button class="btn btn-success" onclick="taskAdd()">Add Student</button> -->
+        </div>
+      </div>
+      <div class="parentinput1">
+        <div class="parentinput2">
+          <input type="number" autocomplete="off" name="" id="data5" class="fs-4" placeholder="CNIC"><br><br>
+          <!-- <button class="btn btn-success" onclick="taskAdd()">Add Student</button> -->
+        </div>
+      </div>
+      <br>
+      <button class="btn btn-success container" onclick="taskAdd()">Add Student</button>
+      <br>
+      <br>
+  </div>
+  </section>
+  </div>
+
+  <h4 class="m-4 mt-5 d-flex justify-content-between align-items-center">
+    <strong>Your Students</strong>
+    <button class="btn btn-warning" onclick="hist()">Refresh</button>
+  </h4>
+
+  <section>
+    <div class="maincard container d-flex gap-3 align-items-center justify-content-center flex-wrap p-3" id="card">
+
+    </div>
+  </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="app.js" type="module"></script>
+<script src="firebase.js" type="module"></script>
+
+</html>
